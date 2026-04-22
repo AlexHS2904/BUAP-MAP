@@ -1,0 +1,5308 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154236542",
+        "amenity": "university",
+        "building": "school",
+        "name": "DGIE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1983295,
+              19.0025944
+            ],
+            [
+              -98.1985307,
+              19.0021835
+            ],
+            [
+              -98.1982437,
+              19.0020491
+            ],
+            [
+              -98.1980345,
+              19.0024676
+            ],
+            [
+              -98.1983295,
+              19.0025944
+            ]
+          ]
+        ]
+      },
+      "id": "way/154236542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/297130245",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Biblioteca Central Universitaria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2023916,
+              18.9960554
+            ],
+            [
+              -98.2022957,
+              18.9958026
+            ],
+            [
+              -98.2022189,
+              18.9958287
+            ],
+            [
+              -98.2021098,
+              18.9955411
+            ],
+            [
+              -98.2020032,
+              18.9955772
+            ],
+            [
+              -98.2019748,
+              18.9955022
+            ],
+            [
+              -98.2017164,
+              18.9955898
+            ],
+            [
+              -98.20185,
+              18.9959418
+            ],
+            [
+              -98.2019425,
+              18.9959104
+            ],
+            [
+              -98.2020424,
+              18.9961738
+            ],
+            [
+              -98.2023916,
+              18.9960554
+            ]
+          ]
+        ]
+      },
+      "id": "way/297130245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/297130250",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Arena BUAP",
+        "sport": "basketball",
+        "building:levels": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.204058,
+              19.0001322
+            ],
+            [
+              -98.2040355,
+              18.999996
+            ],
+            [
+              -98.203987,
+              18.9999168
+            ],
+            [
+              -98.2039623,
+              18.9998766
+            ],
+            [
+              -98.2038486,
+              18.9997903
+            ],
+            [
+              -98.2037095,
+              18.9997486
+            ],
+            [
+              -98.2035639,
+              18.9997573
+            ],
+            [
+              -98.2034315,
+              18.9998151
+            ],
+            [
+              -98.20333,
+              18.9999143
+            ],
+            [
+              -98.2032734,
+              19.0000414
+            ],
+            [
+              -98.2032728,
+              19.0000604
+            ],
+            [
+              -98.2032691,
+              19.0001792
+            ],
+            [
+              -98.2033177,
+              19.0003093
+            ],
+            [
+              -98.2033631,
+              19.0003592
+            ],
+            [
+              -98.2034128,
+              19.0004139
+            ],
+            [
+              -98.2035414,
+              19.000479
+            ],
+            [
+              -98.2036862,
+              19.0004958
+            ],
+            [
+              -98.2038276,
+              19.0004619
+            ],
+            [
+              -98.2039466,
+              19.0003821
+            ],
+            [
+              -98.204027,
+              19.000267
+            ],
+            [
+              -98.204058,
+              19.0001322
+            ]
+          ]
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/356400093",
+        "building": "university",
+        "building:levels": 2,
+        "name": "Dirección General de Cómputo y Tecnologías de la Información y Comunicaciones"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2010347,
+              18.9948507
+            ],
+            [
+              -98.2010025,
+              18.9947442
+            ],
+            [
+              -98.2008845,
+              18.9947899
+            ],
+            [
+              -98.2008577,
+              18.9947188
+            ],
+            [
+              -98.2006163,
+              18.9948051
+            ],
+            [
+              -98.2006807,
+              18.9949775
+            ],
+            [
+              -98.2010347,
+              18.9948507
+            ]
+          ]
+        ]
+      },
+      "id": "way/356400093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/356401106",
+        "building": "yes",
+        "name": "Laboratorio Nacional de Supercómputo del Sureste de México",
+        "office": "research"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2005573,
+              18.9948203
+            ],
+            [
+              -98.2002086,
+              18.994937
+            ],
+            [
+              -98.2002515,
+              18.9950536
+            ],
+            [
+              -98.2006002,
+              18.9949268
+            ],
+            [
+              -98.2005573,
+              18.9948203
+            ]
+          ]
+        ]
+      },
+      "id": "way/356401106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418198610",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "Av. San Claudio",
+        "amenity": "university",
+        "building": "yes",
+        "building:levels": 3,
+        "name": "Facultad de Economía BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1979535,
+              19.0020328
+            ],
+            [
+              -98.1979971,
+              19.0019458
+            ],
+            [
+              -98.1975219,
+              19.0017323
+            ],
+            [
+              -98.1975943,
+              19.0015919
+            ],
+            [
+              -98.1979325,
+              19.0017427
+            ],
+            [
+              -98.1979933,
+              19.0016379
+            ],
+            [
+              -98.1974919,
+              19.0014106
+            ],
+            [
+              -98.1973069,
+              19.0017572
+            ],
+            [
+              -98.1979535,
+              19.0020328
+            ]
+          ]
+        ]
+      },
+      "id": "way/418198610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418198998",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "San Claudio",
+        "amenity": "language_school",
+        "building": "yes",
+        "building:levels": 4,
+        "name": "CAALE BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1970351,
+              19.0014351
+            ],
+            [
+              -98.1963994,
+              19.0011384
+            ],
+            [
+              -98.1962358,
+              19.0016025
+            ],
+            [
+              -98.1965186,
+              19.0017213
+            ],
+            [
+              -98.1968152,
+              19.0018459
+            ],
+            [
+              -98.1970351,
+              19.0014351
+            ]
+          ]
+        ]
+      },
+      "id": "way/418198998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418199520",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "San Claudio",
+        "amenity": "community_hall",
+        "building": "yes",
+        "building:levels": 2,
+        "capacity": 150,
+        "name": "Auditorio Facultad de Economia BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1982327,
+              19.0016747
+            ],
+            [
+              -98.198289,
+              19.0015606
+            ],
+            [
+              -98.198348,
+              19.0014363
+            ],
+            [
+              -98.19823,
+              19.0013831
+            ],
+            [
+              -98.1981147,
+              19.0016265
+            ],
+            [
+              -98.1982327,
+              19.0016747
+            ]
+          ]
+        ]
+      },
+      "id": "way/418199520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418200569",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "San Claudio",
+        "amenity": "research_institute",
+        "building": "yes",
+        "building:levels": 5,
+        "name": "Instituto de Ciencias Sociales y Humanidades \"Alfonso Velez Pliego\""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1987423,
+              19.0017736
+            ],
+            [
+              -98.1988228,
+              19.0016418
+            ],
+            [
+              -98.1989032,
+              19.0014876
+            ],
+            [
+              -98.1989194,
+              19.0014566
+            ],
+            [
+              -98.198576,
+              19.0012994
+            ],
+            [
+              -98.1984231,
+              19.0016392
+            ],
+            [
+              -98.1987423,
+              19.0017736
+            ]
+          ]
+        ]
+      },
+      "id": "way/418200569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418200570",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "San Claudio",
+        "amenity": "research_institute",
+        "building": "yes",
+        "building:levels": 2,
+        "name": "CEDES"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.197707,
+              19.0014008
+            ],
+            [
+              -98.1977633,
+              19.0012816
+            ],
+            [
+              -98.1978384,
+              19.0011244
+            ],
+            [
+              -98.1976909,
+              19.0010585
+            ],
+            [
+              -98.1975568,
+              19.0013349
+            ],
+            [
+              -98.197707,
+              19.0014008
+            ]
+          ]
+        ]
+      },
+      "id": "way/418200570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418200833",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "San Claudio",
+        "amenity": "research_institute",
+        "building": "yes",
+        "building:levels": 2,
+        "name": "Centro de Investigaciones en Ciencias Microbiologicas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1961808,
+              19.0011624
+            ],
+            [
+              -98.1959367,
+              19.001061
+            ],
+            [
+              -98.1957651,
+              19.0014896
+            ],
+            [
+              -98.1959609,
+              19.0015809
+            ],
+            [
+              -98.1961808,
+              19.0011624
+            ]
+          ]
+        ]
+      },
+      "id": "way/418200833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418201519",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "San Claudio",
+        "building": "yes",
+        "building:levels": 1,
+        "leisure": "fitness_centre",
+        "name": "Gimnasio Escuela de Cultura Fisica"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1948934,
+              19.0005081
+            ],
+            [
+              -98.194593,
+              19.0003636
+            ],
+            [
+              -98.1944132,
+              19.0007389
+            ],
+            [
+              -98.1947083,
+              19.0008809
+            ],
+            [
+              -98.1948934,
+              19.0005081
+            ]
+          ]
+        ]
+      },
+      "id": "way/418201519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418202369",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "San Claudio",
+        "amenity": "college",
+        "building": "yes",
+        "building:levels": 3,
+        "name": "Facultad de Ciencias Quimicas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2011587,
+              19.0018376
+            ],
+            [
+              -98.2009576,
+              19.0017361
+            ],
+            [
+              -98.2009093,
+              19.0017843
+            ],
+            [
+              -98.2005123,
+              19.0016017
+            ],
+            [
+              -98.2004024,
+              19.0018782
+            ],
+            [
+              -98.2010059,
+              19.0021343
+            ],
+            [
+              -98.2011587,
+              19.0018376
+            ]
+          ]
+        ]
+      },
+      "id": "way/418202369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418202370",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "San Claudio",
+        "amenity": "college",
+        "building": "yes",
+        "building:levels": 3,
+        "name": "Escuela de Biologia BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2012553,
+              19.001617
+            ],
+            [
+              -98.2013689,
+              19.0013985
+            ],
+            [
+              -98.2014136,
+              19.0013126
+            ],
+            [
+              -98.201266,
+              19.0012442
+            ],
+            [
+              -98.2012794,
+              19.0012086
+            ],
+            [
+              -98.2013116,
+              19.0010945
+            ],
+            [
+              -98.2012312,
+              19.0010818
+            ],
+            [
+              -98.2012526,
+              19.0010286
+            ],
+            [
+              -98.2008973,
+              19.0008828
+            ],
+            [
+              -98.2007618,
+              19.0011326
+            ],
+            [
+              -98.2011158,
+              19.0012999
+            ],
+            [
+              -98.2011507,
+              19.0013532
+            ],
+            [
+              -98.2010595,
+              19.0015383
+            ],
+            [
+              -98.2012553,
+              19.001617
+            ]
+          ]
+        ]
+      },
+      "id": "way/418202370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418204188",
+        "building": "yes",
+        "building:levels": 2,
+        "leisure": "fitness_centre",
+        "name": "Gimnasio BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2019734,
+              18.9996742
+            ],
+            [
+              -98.2020432,
+              18.9992786
+            ],
+            [
+              -98.2015176,
+              18.9992076
+            ],
+            [
+              -98.2014573,
+              18.9995746
+            ],
+            [
+              -98.2019734,
+              18.9996742
+            ]
+          ]
+        ]
+      },
+      "id": "way/418204188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418249162",
+        "amenity": "college",
+        "building": "yes",
+        "building:levels": 4,
+        "check_date": "2024-05-29",
+        "name": "Edificio Multiaulas 4 BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.20263,
+              18.9971866
+            ],
+            [
+              -98.2022631,
+              18.9971056
+            ],
+            [
+              -98.2022173,
+              18.9972913
+            ],
+            [
+              -98.2025841,
+              18.9973723
+            ],
+            [
+              -98.20263,
+              18.9971866
+            ]
+          ]
+        ]
+      },
+      "id": "way/418249162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418249163",
+        "amenity": "college",
+        "building": "university",
+        "building:levels": 4,
+        "check_date": "2024-05-29",
+        "name": "Edificio Multiaulas 6 BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2025043,
+              18.9977551
+            ],
+            [
+              -98.2025475,
+              18.9975545
+            ],
+            [
+              -98.2021838,
+              18.9974844
+            ],
+            [
+              -98.2021405,
+              18.997685
+            ],
+            [
+              -98.2025043,
+              18.9977551
+            ]
+          ]
+        ]
+      },
+      "id": "way/418249163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418249164",
+        "amenity": "college",
+        "building": "yes",
+        "building:levels": 4,
+        "check_date": "2024-05-29",
+        "name": "Edificio Multiaulas 5 BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2026517,
+              18.9970551
+            ],
+            [
+              -98.2026971,
+              18.996859
+            ],
+            [
+              -98.2023721,
+              18.9967916
+            ],
+            [
+              -98.2023267,
+              18.9969878
+            ],
+            [
+              -98.2026517,
+              18.9970551
+            ]
+          ]
+        ]
+      },
+      "id": "way/418249164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418249165",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "Boulevard Valsequillo",
+        "amenity": "veterinary",
+        "building": "yes",
+        "name": "Hospital Veterinario para pequeñas especies BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2031958,
+              18.997323
+            ],
+            [
+              -98.2030971,
+              18.9970558
+            ],
+            [
+              -98.2027715,
+              18.9971634
+            ],
+            [
+              -98.2028703,
+              18.9974306
+            ],
+            [
+              -98.2031958,
+              18.997323
+            ]
+          ]
+        ]
+      },
+      "id": "way/418249165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418249171",
+        "amenity": "childcare",
+        "building": "yes",
+        "name": "Circulo Infanti BUAP",
+        "operator": "BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2019442,
+              18.9945858
+            ],
+            [
+              -98.2019153,
+              18.9945596
+            ],
+            [
+              -98.2018634,
+              18.9945327
+            ],
+            [
+              -98.2018126,
+              18.9945185
+            ],
+            [
+              -98.2017487,
+              18.9945058
+            ],
+            [
+              -98.2017026,
+              18.9945091
+            ],
+            [
+              -98.2016592,
+              18.9945251
+            ],
+            [
+              -98.2016164,
+              18.9945536
+            ],
+            [
+              -98.2015575,
+              18.9944784
+            ],
+            [
+              -98.2010946,
+              18.9946392
+            ],
+            [
+              -98.2013114,
+              18.9952494
+            ],
+            [
+              -98.201748,
+              18.9951095
+            ],
+            [
+              -98.2018128,
+              18.9952745
+            ],
+            [
+              -98.2018465,
+              18.9953815
+            ],
+            [
+              -98.2018715,
+              18.9954488
+            ],
+            [
+              -98.2023173,
+              18.9953172
+            ],
+            [
+              -98.2021799,
+              18.9949369
+            ],
+            [
+              -98.2020311,
+              18.9947629
+            ],
+            [
+              -98.2019959,
+              18.9947102
+            ],
+            [
+              -98.2019451,
+              18.9946465
+            ],
+            [
+              -98.2019767,
+              18.9946219
+            ],
+            [
+              -98.2019442,
+              18.9945858
+            ]
+          ]
+        ]
+      },
+      "id": "way/418249171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/419259934",
+        "addr:city": "Puebla",
+        "addr:housenumber": "S/N",
+        "addr:postcode": 72570,
+        "addr:street": "San Claudio",
+        "building": "yes",
+        "name": "Instituto de Fisica \"Luis Rivera Terrazas\"",
+        "office": "research"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2024823,
+              19.0033149
+            ],
+            [
+              -98.2021443,
+              19.0031577
+            ],
+            [
+              -98.2017502,
+              19.0039693
+            ],
+            [
+              -98.2021068,
+              19.0041366
+            ],
+            [
+              -98.2024823,
+              19.0033149
+            ]
+          ]
+        ]
+      },
+      "id": "way/419259934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524271980",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2038718,
+              19.0019525
+            ],
+            [
+              -98.2038304,
+              19.0020448
+            ],
+            [
+              -98.2042985,
+              19.0022512
+            ],
+            [
+              -98.204352,
+              19.0021585
+            ],
+            [
+              -98.2038718,
+              19.0019525
+            ]
+          ]
+        ]
+      },
+      "id": "way/524271980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524271981",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2037362,
+              19.0022383
+            ],
+            [
+              -98.204204,
+              19.0024452
+            ],
+            [
+              -98.204252,
+              19.0023593
+            ],
+            [
+              -98.2037708,
+              19.0021539
+            ],
+            [
+              -98.2037362,
+              19.0022383
+            ]
+          ]
+        ]
+      },
+      "id": "way/524271981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524271982",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2042275,
+              19.0019028
+            ],
+            [
+              -98.2041652,
+              19.0020311
+            ],
+            [
+              -98.2043602,
+              19.002117
+            ],
+            [
+              -98.2044285,
+              19.0019906
+            ],
+            [
+              -98.2042275,
+              19.0019028
+            ]
+          ]
+        ]
+      },
+      "id": "way/524271982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524271983",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2047848,
+              19.002313
+            ],
+            [
+              -98.2048277,
+              19.0022338
+            ],
+            [
+              -98.2044173,
+              19.0020466
+            ],
+            [
+              -98.2043755,
+              19.0021315
+            ],
+            [
+              -98.2047848,
+              19.002313
+            ]
+          ]
+        ]
+      },
+      "id": "way/524271983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524272312",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1962237,
+              18.9998944
+            ],
+            [
+              -98.1962871,
+              18.9999078
+            ],
+            [
+              -98.1963575,
+              18.9999111
+            ],
+            [
+              -98.1964227,
+              18.9998545
+            ],
+            [
+              -98.1964315,
+              18.9997779
+            ],
+            [
+              -98.1963874,
+              18.9997163
+            ],
+            [
+              -98.1963329,
+              18.999673
+            ],
+            [
+              -98.1962994,
+              18.9997762
+            ],
+            [
+              -98.1962818,
+              18.9997912
+            ],
+            [
+              -98.1962237,
+              18.9998944
+            ]
+          ]
+        ]
+      },
+      "id": "way/524272312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525086236",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1957456,
+              18.9971892
+            ],
+            [
+              -98.1957818,
+              18.9971254
+            ],
+            [
+              -98.1955983,
+              18.9970508
+            ],
+            [
+              -98.1955653,
+              18.9971117
+            ],
+            [
+              -98.1957456,
+              18.9971892
+            ]
+          ]
+        ]
+      },
+      "id": "way/525086236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525086237",
+        "amenity": "bus_station",
+        "building": "yes",
+        "bus": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Terminal STU",
+        "operator": "Benemérita Universidad Autónoma de Puebla",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1957818,
+              18.9971254
+            ],
+            [
+              -98.1959734,
+              18.9967366
+            ],
+            [
+              -98.1957795,
+              18.9966484
+            ],
+            [
+              -98.1955983,
+              18.9970508
+            ],
+            [
+              -98.1957818,
+              18.9971254
+            ]
+          ]
+        ]
+      },
+      "id": "way/525086237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525086509",
+        "building": "construction",
+        "building:levels": 26,
+        "name": "Torre de Rectoria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2020194,
+              19.0011541
+            ],
+            [
+              -98.2016537,
+              19.0010695
+            ],
+            [
+              -98.2014046,
+              19.0017611
+            ],
+            [
+              -98.2018521,
+              19.0018898
+            ],
+            [
+              -98.2020194,
+              19.0011541
+            ]
+          ]
+        ]
+      },
+      "id": "way/525086509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525086510",
+        "building": "construction",
+        "name": "Centro de Convenciones BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2022361,
+              19.0008327
+            ],
+            [
+              -98.2023073,
+              19.0004351
+            ],
+            [
+              -98.2018141,
+              19.0003266
+            ],
+            [
+              -98.2016766,
+              19.0006997
+            ],
+            [
+              -98.2022361,
+              19.0008327
+            ]
+          ]
+        ]
+      },
+      "id": "way/525086510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525089355",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2000567,
+              19.0033503
+            ],
+            [
+              -98.2001512,
+              19.0031501
+            ],
+            [
+              -98.1996802,
+              19.0029365
+            ],
+            [
+              -98.1995875,
+              19.0031422
+            ],
+            [
+              -98.2000567,
+              19.0033503
+            ]
+          ]
+        ]
+      },
+      "id": "way/525089355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/525089359",
+        "addr:city": "Puebla",
+        "addr:postcode": 72570,
+        "addr:street": "Prolongación de la 24 Sur",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "drive_through": "no",
+        "name": "Alexander Fleming 24 Sur",
+        "operator": "BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1945783,
+              18.9993436
+            ],
+            [
+              -98.1945744,
+              18.9992768
+            ],
+            [
+              -98.1943673,
+              18.9992018
+            ],
+            [
+              -98.1943707,
+              18.9992489
+            ],
+            [
+              -98.1943986,
+              18.9992586
+            ],
+            [
+              -98.1944286,
+              18.999398
+            ],
+            [
+              -98.1944954,
+              18.9993588
+            ],
+            [
+              -98.1945368,
+              18.999361
+            ],
+            [
+              -98.1945783,
+              18.9993436
+            ]
+          ]
+        ]
+      },
+      "id": "way/525089359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173744",
+        "building": "university",
+        "building:levels": 3,
+        "name": "ING 4"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2033167,
+              19.0022507
+            ],
+            [
+              -98.2033714,
+              19.0021393
+            ],
+            [
+              -98.2031509,
+              19.0020483
+            ],
+            [
+              -98.2028648,
+              19.0019294
+            ],
+            [
+              -98.2028011,
+              19.0019048
+            ],
+            [
+              -98.2027507,
+              19.0020163
+            ],
+            [
+              -98.2033167,
+              19.0022507
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173745",
+        "building": "university",
+        "building:levels": 1,
+        "name": "Auditorio de Facultad de Ingeniería"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2032418,
+              19.0018456
+            ],
+            [
+              -98.2029594,
+              19.0017221
+            ],
+            [
+              -98.2028648,
+              19.0019294
+            ],
+            [
+              -98.2031509,
+              19.0020483
+            ],
+            [
+              -98.2032418,
+              19.0018456
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173746",
+        "building": "university",
+        "building:levels": 3,
+        "name": "ING 5"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2028648,
+              19.0019294
+            ],
+            [
+              -98.2029594,
+              19.0017221
+            ],
+            [
+              -98.2027216,
+              19.0016274
+            ],
+            [
+              -98.2026758,
+              19.0017247
+            ],
+            [
+              -98.2026272,
+              19.0018297
+            ],
+            [
+              -98.2028648,
+              19.0019294
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173747",
+        "building": "university",
+        "building:levels": 3,
+        "name": "ING 6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2026255,
+              19.0018287
+            ],
+            [
+              -98.2026758,
+              19.0017247
+            ],
+            [
+              -98.2026084,
+              19.0017013
+            ],
+            [
+              -98.202324,
+              19.0015929
+            ],
+            [
+              -98.2022872,
+              19.0016924
+            ],
+            [
+              -98.2024614,
+              19.0017656
+            ],
+            [
+              -98.2025351,
+              19.0017933
+            ],
+            [
+              -98.2026255,
+              19.0018287
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173748",
+        "building": "university",
+        "building:levels": 3,
+        "name": "ING 7"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2023598,
+              19.0019677
+            ],
+            [
+              -98.202409,
+              19.0018834
+            ],
+            [
+              -98.2024325,
+              19.0018365
+            ],
+            [
+              -98.2023325,
+              19.0017925
+            ],
+            [
+              -98.2022662,
+              19.0019287
+            ],
+            [
+              -98.2023598,
+              19.0019677
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173749",
+        "building": "university",
+        "building:levels": 3,
+        "name": "ING 8"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2026437,
+              19.0022535
+            ],
+            [
+              -98.2027094,
+              19.0021253
+            ],
+            [
+              -98.2025348,
+              19.0020474
+            ],
+            [
+              -98.2023598,
+              19.0019677
+            ],
+            [
+              -98.2022946,
+              19.0020957
+            ],
+            [
+              -98.2026437,
+              19.0022535
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173752",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "regional;burger;pizza;mexican;sandwich;international",
+        "name": "Cafetería de Facultad de Ingeniería",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2028878,
+              19.0022174
+            ],
+            [
+              -98.2028294,
+              19.0021884
+            ],
+            [
+              -98.2027813,
+              19.0022845
+            ],
+            [
+              -98.2028413,
+              19.0023125
+            ],
+            [
+              -98.2028878,
+              19.0022174
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173761",
+        "amenity": "cafe",
+        "building": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Italian Coffe",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.202278,
+              19.0024054
+            ],
+            [
+              -98.202238,
+              19.0022992
+            ],
+            [
+              -98.2022116,
+              19.002229
+            ],
+            [
+              -98.2020704,
+              19.0022642
+            ],
+            [
+              -98.2020554,
+              19.0023909
+            ],
+            [
+              -98.2021686,
+              19.0024349
+            ],
+            [
+              -98.202278,
+              19.0024054
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173765",
+        "building": "university",
+        "building:levels": 1,
+        "name": "ING 3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2034692,
+              19.0018477
+            ],
+            [
+              -98.203511,
+              19.0017612
+            ],
+            [
+              -98.2034466,
+              19.0017313
+            ],
+            [
+              -98.2034271,
+              19.001771
+            ],
+            [
+              -98.2034037,
+              19.001821
+            ],
+            [
+              -98.2034692,
+              19.0018477
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173766",
+        "building": "university",
+        "building:levels": 3,
+        "name": "ING 2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2035267,
+              19.0021837
+            ],
+            [
+              -98.2037304,
+              19.0017571
+            ],
+            [
+              -98.203592,
+              19.0016988
+            ],
+            [
+              -98.2034894,
+              19.0019143
+            ],
+            [
+              -98.2033826,
+              19.0021244
+            ],
+            [
+              -98.2035267,
+              19.0021837
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173768",
+        "building": "university",
+        "building:levels": 2,
+        "name": "ING 1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2039022,
+              19.0018252
+            ],
+            [
+              -98.2040052,
+              19.0015742
+            ],
+            [
+              -98.2040486,
+              19.0014078
+            ],
+            [
+              -98.2037091,
+              19.0013337
+            ],
+            [
+              -98.2036531,
+              19.0013214
+            ],
+            [
+              -98.2035107,
+              19.0016669
+            ],
+            [
+              -98.203592,
+              19.0016988
+            ],
+            [
+              -98.2037304,
+              19.0017571
+            ],
+            [
+              -98.2039022,
+              19.0018252
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173769",
+        "building": "university",
+        "building:levels": 2,
+        "name": "Edificio Multi-Aulas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2034832,
+              19.0027262
+            ],
+            [
+              -98.2035996,
+              19.0024841
+            ],
+            [
+              -98.2034914,
+              19.0024384
+            ],
+            [
+              -98.2033702,
+              19.0023901
+            ],
+            [
+              -98.2032595,
+              19.0026189
+            ],
+            [
+              -98.203379,
+              19.0026753
+            ],
+            [
+              -98.2034832,
+              19.0027262
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173770",
+        "building": "university",
+        "building:levels": 2,
+        "name": "Computación"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2028871,
+              19.0029068
+            ],
+            [
+              -98.2029339,
+              19.0028114
+            ],
+            [
+              -98.2025466,
+              19.0026417
+            ],
+            [
+              -98.2024999,
+              19.0027371
+            ],
+            [
+              -98.2028871,
+              19.0029068
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556173778",
+        "building": "university",
+        "building:levels": 3,
+        "name": "FCE3 Facultad de Ingenieria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2023789,
+              19.0027633
+            ],
+            [
+              -98.2024615,
+              19.0025937
+            ],
+            [
+              -98.2021768,
+              19.0024645
+            ],
+            [
+              -98.2020999,
+              19.0026314
+            ],
+            [
+              -98.2023789,
+              19.0027633
+            ]
+          ]
+        ]
+      },
+      "id": "way/556173778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/556184091",
+        "building": "boathouse",
+        "building:levels": 1,
+        "name": "Lobo Lanchas BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.204551,
+              19.0036583
+            ],
+            [
+              -98.2046106,
+              19.0036755
+            ],
+            [
+              -98.2046396,
+              19.003572
+            ],
+            [
+              -98.2045857,
+              19.0035447
+            ],
+            [
+              -98.204551,
+              19.0036583
+            ]
+          ]
+        ]
+      },
+      "id": "way/556184091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574246295",
+        "building": "university",
+        "name": "ARQ 104"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2037071,
+              19.0021784
+            ],
+            [
+              -98.2035685,
+              19.0021194
+            ],
+            [
+              -98.2034974,
+              19.0022688
+            ],
+            [
+              -98.203636,
+              19.0023277
+            ],
+            [
+              -98.2037071,
+              19.0021784
+            ]
+          ]
+        ]
+      },
+      "id": "way/574246295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574246296",
+        "building": "university",
+        "name": "ARQ 12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2038822,
+              19.0018434
+            ],
+            [
+              -98.2038061,
+              19.0018111
+            ],
+            [
+              -98.2037991,
+              19.0018258
+            ],
+            [
+              -98.2037251,
+              19.0017944
+            ],
+            [
+              -98.2036704,
+              19.0019095
+            ],
+            [
+              -98.2038067,
+              19.0019674
+            ],
+            [
+              -98.2038311,
+              19.0019163
+            ],
+            [
+              -98.2038447,
+              19.0019222
+            ],
+            [
+              -98.2038822,
+              19.0018434
+            ]
+          ]
+        ]
+      },
+      "id": "way/574246296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574246297",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2038067,
+              19.0019674
+            ],
+            [
+              -98.2036704,
+              19.0019095
+            ],
+            [
+              -98.2035685,
+              19.0021194
+            ],
+            [
+              -98.2037071,
+              19.0021784
+            ],
+            [
+              -98.2038067,
+              19.0019674
+            ]
+          ]
+        ]
+      },
+      "id": "way/574246297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574246298",
+        "building": "university",
+        "building:levels": 2,
+        "name": "La Monja"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2047035,
+              19.0023974
+            ],
+            [
+              -98.2044041,
+              19.0022526
+            ],
+            [
+              -98.2042511,
+              19.0025354
+            ],
+            [
+              -98.2045506,
+              19.0026802
+            ],
+            [
+              -98.2047035,
+              19.0023974
+            ]
+          ]
+        ]
+      },
+      "id": "way/574246298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574246299",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2042513,
+              19.0031342
+            ],
+            [
+              -98.2042939,
+              19.0030418
+            ],
+            [
+              -98.2041878,
+              19.0029981
+            ],
+            [
+              -98.2042065,
+              19.0029574
+            ],
+            [
+              -98.2039991,
+              19.0028721
+            ],
+            [
+              -98.2039479,
+              19.0029833
+            ],
+            [
+              -98.2040687,
+              19.003033
+            ],
+            [
+              -98.2040856,
+              19.0029964
+            ],
+            [
+              -98.2041819,
+              19.0030361
+            ],
+            [
+              -98.2041549,
+              19.0030945
+            ],
+            [
+              -98.2042513,
+              19.0031342
+            ]
+          ]
+        ]
+      },
+      "id": "way/574246299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574246300",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2044541,
+              19.0029489
+            ],
+            [
+              -98.2044967,
+              19.0028565
+            ],
+            [
+              -98.2043906,
+              19.0028128
+            ],
+            [
+              -98.2044093,
+              19.0027722
+            ],
+            [
+              -98.2042019,
+              19.0026868
+            ],
+            [
+              -98.2041507,
+              19.002798
+            ],
+            [
+              -98.2042715,
+              19.0028477
+            ],
+            [
+              -98.2042884,
+              19.0028112
+            ],
+            [
+              -98.2043846,
+              19.0028508
+            ],
+            [
+              -98.2043577,
+              19.0029093
+            ],
+            [
+              -98.2044541,
+              19.0029489
+            ]
+          ]
+        ]
+      },
+      "id": "way/574246300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574246301",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2038563,
+              19.0029096
+            ],
+            [
+              -98.2038988,
+              19.0028172
+            ],
+            [
+              -98.2037927,
+              19.0027735
+            ],
+            [
+              -98.2038114,
+              19.0027329
+            ],
+            [
+              -98.2036041,
+              19.0026475
+            ],
+            [
+              -98.2035528,
+              19.0027587
+            ],
+            [
+              -98.2036737,
+              19.0028084
+            ],
+            [
+              -98.2036905,
+              19.0027719
+            ],
+            [
+              -98.2037868,
+              19.0028115
+            ],
+            [
+              -98.2037599,
+              19.00287
+            ],
+            [
+              -98.2038563,
+              19.0029096
+            ]
+          ]
+        ]
+      },
+      "id": "way/574246301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574246302",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2040721,
+              19.0027479
+            ],
+            [
+              -98.2041146,
+              19.0026555
+            ],
+            [
+              -98.2040085,
+              19.0026118
+            ],
+            [
+              -98.2040272,
+              19.0025712
+            ],
+            [
+              -98.2038199,
+              19.0024858
+            ],
+            [
+              -98.2037687,
+              19.002597
+            ],
+            [
+              -98.2038895,
+              19.0026467
+            ],
+            [
+              -98.2039063,
+              19.0026101
+            ],
+            [
+              -98.2040026,
+              19.0026498
+            ],
+            [
+              -98.2039757,
+              19.0027082
+            ],
+            [
+              -98.2040721,
+              19.0027479
+            ]
+          ]
+        ]
+      },
+      "id": "way/574246302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574246303",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2046788,
+              19.0030898
+            ],
+            [
+              -98.2047201,
+              19.0030015
+            ],
+            [
+              -98.204584,
+              19.0029446
+            ],
+            [
+              -98.2044692,
+              19.0031903
+            ],
+            [
+              -98.2045958,
+              19.0032432
+            ],
+            [
+              -98.2046336,
+              19.0031622
+            ],
+            [
+              -98.2045759,
+              19.0031382
+            ],
+            [
+              -98.2046116,
+              19.0030617
+            ],
+            [
+              -98.2046788,
+              19.0030898
+            ]
+          ]
+        ]
+      },
+      "id": "way/574246303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/601853376",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1950416,
+              18.9986717
+            ],
+            [
+              -98.195128,
+              18.9984796
+            ],
+            [
+              -98.1947264,
+              18.9983052
+            ],
+            [
+              -98.1946377,
+              18.9984862
+            ],
+            [
+              -98.1950416,
+              18.9986717
+            ]
+          ]
+        ]
+      },
+      "id": "way/601853376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/638639948",
+        "amenity": "bus_station",
+        "building": "yes",
+        "bus": "yes",
+        "name": "Biblioteca Central",
+        "network": "RUTA",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2031488,
+              18.9961185
+            ],
+            [
+              -98.202982,
+              18.9956545
+            ],
+            [
+              -98.2029334,
+              18.9956726
+            ],
+            [
+              -98.2030975,
+              18.9961347
+            ],
+            [
+              -98.2031488,
+              18.9961185
+            ]
+          ]
+        ]
+      },
+      "id": "way/638639948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/638639949",
+        "amenity": "bus_station",
+        "building": "yes",
+        "bus": "yes",
+        "name": "C. U. BUAP",
+        "network": "RUTA",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2046742,
+              19.0004515
+            ],
+            [
+              -98.2045505,
+              19.0001437
+            ],
+            [
+              -98.2044999,
+              19.0001618
+            ],
+            [
+              -98.2046237,
+              19.0004697
+            ],
+            [
+              -98.2046742,
+              19.0004515
+            ]
+          ]
+        ]
+      },
+      "id": "way/638639949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/646704211",
+        "amenity": "theatre",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2043933,
+              19.0035331
+            ],
+            [
+              -98.2044966,
+              19.0035795
+            ],
+            [
+              -98.2045551,
+              19.0034558
+            ],
+            [
+              -98.2044501,
+              19.0034119
+            ],
+            [
+              -98.2043933,
+              19.0035331
+            ]
+          ]
+        ]
+      },
+      "id": "way/646704211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/646704212",
+        "amenity": "theatre",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2043632,
+              19.0035112
+            ],
+            [
+              -98.2043348,
+              19.0034461
+            ],
+            [
+              -98.204352,
+              19.0034192
+            ],
+            [
+              -98.2044139,
+              19.0033948
+            ],
+            [
+              -98.2043752,
+              19.0033037
+            ],
+            [
+              -98.2042737,
+              19.0033419
+            ],
+            [
+              -98.2042306,
+              19.0034363
+            ],
+            [
+              -98.2042547,
+              19.0035388
+            ],
+            [
+              -98.2043632,
+              19.0035112
+            ]
+          ]
+        ]
+      },
+      "id": "way/646704212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/646705203",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2030668,
+              19.0034736
+            ],
+            [
+              -98.2033878,
+              19.0036134
+            ],
+            [
+              -98.2034356,
+              19.0035153
+            ],
+            [
+              -98.2031146,
+              19.0033755
+            ],
+            [
+              -98.2030668,
+              19.0034736
+            ]
+          ]
+        ]
+      },
+      "id": "way/646705203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/646705204",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2035406,
+              19.0036827
+            ],
+            [
+              -98.2038099,
+              19.0038079
+            ],
+            [
+              -98.2038692,
+              19.0036938
+            ],
+            [
+              -98.2036,
+              19.0035686
+            ],
+            [
+              -98.2035406,
+              19.0036827
+            ]
+          ]
+        ]
+      },
+      "id": "way/646705204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/646705205",
+        "building": "university"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.202678,
+              19.00356
+            ],
+            [
+              -98.2026391,
+              19.003643
+            ],
+            [
+              -98.2031762,
+              19.0038681
+            ],
+            [
+              -98.2032152,
+              19.0037851
+            ],
+            [
+              -98.202678,
+              19.00356
+            ]
+          ]
+        ]
+      },
+      "id": "way/646705205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/648202333",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.200202,
+              18.9957999
+            ],
+            [
+              -98.2001411,
+              18.9956174
+            ],
+            [
+              -98.1999154,
+              18.9956847
+            ],
+            [
+              -98.1999467,
+              18.9957784
+            ],
+            [
+              -98.2000132,
+              18.9957586
+            ],
+            [
+              -98.2000428,
+              18.9958474
+            ],
+            [
+              -98.200202,
+              18.9957999
+            ]
+          ]
+        ]
+      },
+      "id": "way/648202333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/648202334",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1998747,
+              18.995583
+            ],
+            [
+              -98.1998276,
+              18.9954401
+            ],
+            [
+              -98.1996104,
+              18.9955041
+            ],
+            [
+              -98.1996574,
+              18.9956439
+            ],
+            [
+              -98.1998747,
+              18.995583
+            ]
+          ]
+        ]
+      },
+      "id": "way/648202334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/648202335",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1994456,
+              18.9954355
+            ],
+            [
+              -98.1997572,
+              18.9953392
+            ],
+            [
+              -98.1997472,
+              18.9953101
+            ],
+            [
+              -98.1997873,
+              18.9952977
+            ],
+            [
+              -98.1997446,
+              18.9951741
+            ],
+            [
+              -98.1997002,
+              18.9951879
+            ],
+            [
+              -98.1996896,
+              18.9951573
+            ],
+            [
+              -98.1993759,
+              18.9952544
+            ],
+            [
+              -98.1993999,
+              18.9953237
+            ],
+            [
+              -98.1993603,
+              18.9953359
+            ],
+            [
+              -98.1993899,
+              18.9954216
+            ],
+            [
+              -98.1994359,
+              18.9954074
+            ],
+            [
+              -98.1994456,
+              18.9954355
+            ]
+          ]
+        ]
+      },
+      "id": "way/648202335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/648202336",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.199832,
+              18.9952935
+            ],
+            [
+              -98.2000069,
+              18.9952353
+            ],
+            [
+              -98.1999441,
+              18.9950668
+            ],
+            [
+              -98.1997693,
+              18.995125
+            ],
+            [
+              -98.199832,
+              18.9952935
+            ]
+          ]
+        ]
+      },
+      "id": "way/648202336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/648202337",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1993388,
+              18.9958069
+            ],
+            [
+              -98.1994168,
+              18.9954263
+            ],
+            [
+              -98.1991824,
+              18.9953833
+            ],
+            [
+              -98.1991044,
+              18.995764
+            ],
+            [
+              -98.1993388,
+              18.9958069
+            ]
+          ]
+        ]
+      },
+      "id": "way/648202337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/648202338",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1990734,
+              18.9957558
+            ],
+            [
+              -98.1991204,
+              18.9955236
+            ],
+            [
+              -98.1990198,
+              18.9955054
+            ],
+            [
+              -98.1989838,
+              18.9956831
+            ],
+            [
+              -98.1990084,
+              18.9956875
+            ],
+            [
+              -98.1989973,
+              18.995742
+            ],
+            [
+              -98.1990734,
+              18.9957558
+            ]
+          ]
+        ]
+      },
+      "id": "way/648202338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670985494",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1938945,
+              18.9970908
+            ],
+            [
+              -98.1939316,
+              18.9970685
+            ],
+            [
+              -98.1938993,
+              18.9970203
+            ],
+            [
+              -98.1940575,
+              18.9969253
+            ],
+            [
+              -98.1940134,
+              18.9968597
+            ],
+            [
+              -98.1938181,
+              18.996977
+            ],
+            [
+              -98.1938945,
+              18.9970908
+            ]
+          ]
+        ]
+      },
+      "id": "way/670985494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670985495",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1939949,
+              18.996856
+            ],
+            [
+              -98.1940493,
+              18.9968299
+            ],
+            [
+              -98.19403,
+              18.9967939
+            ],
+            [
+              -98.1940186,
+              18.9967993
+            ],
+            [
+              -98.1939815,
+              18.9967301
+            ],
+            [
+              -98.1939385,
+              18.9967507
+            ],
+            [
+              -98.1939949,
+              18.996856
+            ]
+          ]
+        ]
+      },
+      "id": "way/670985495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670985496",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1938521,
+              18.9965357
+            ],
+            [
+              -98.1939389,
+              18.9965101
+            ],
+            [
+              -98.193909,
+              18.9964192
+            ],
+            [
+              -98.1938221,
+              18.9964448
+            ],
+            [
+              -98.1938521,
+              18.9965357
+            ]
+          ]
+        ]
+      },
+      "id": "way/670985496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670985497",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1938177,
+              18.9964288
+            ],
+            [
+              -98.1939046,
+              18.9964032
+            ],
+            [
+              -98.1938747,
+              18.9963123
+            ],
+            [
+              -98.1937878,
+              18.9963379
+            ],
+            [
+              -98.1938177,
+              18.9964288
+            ]
+          ]
+        ]
+      },
+      "id": "way/670985497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670985498",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1939197,
+              18.9963996
+            ],
+            [
+              -98.1940065,
+              18.996374
+            ],
+            [
+              -98.1939766,
+              18.9962831
+            ],
+            [
+              -98.1938897,
+              18.9963087
+            ],
+            [
+              -98.1939197,
+              18.9963996
+            ]
+          ]
+        ]
+      },
+      "id": "way/670985498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700716",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1971313,
+              19.0055019
+            ],
+            [
+              -98.1971635,
+              19.0053637
+            ],
+            [
+              -98.1970589,
+              19.0053269
+            ],
+            [
+              -98.1970325,
+              19.0054613
+            ],
+            [
+              -98.1970281,
+              19.0054803
+            ],
+            [
+              -98.1971313,
+              19.0055019
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700717",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1971219,
+              19.0055729
+            ],
+            [
+              -98.1970669,
+              19.0055678
+            ],
+            [
+              -98.1970723,
+              19.0055374
+            ],
+            [
+              -98.1970549,
+              19.0055298
+            ],
+            [
+              -98.1970616,
+              19.0055006
+            ],
+            [
+              -98.1969637,
+              19.0054676
+            ],
+            [
+              -98.1969328,
+              19.0056058
+            ],
+            [
+              -98.1971099,
+              19.0056401
+            ],
+            [
+              -98.1971219,
+              19.0055729
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700718",
+        "building": "house",
+        "building:levels": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1970325,
+              19.0054613
+            ],
+            [
+              -98.1970589,
+              19.0053269
+            ],
+            [
+              -98.1969664,
+              19.0053028
+            ],
+            [
+              -98.1969422,
+              19.0054334
+            ],
+            [
+              -98.1969757,
+              19.005441
+            ],
+            [
+              -98.1969744,
+              19.00546
+            ],
+            [
+              -98.1969959,
+              19.0054676
+            ],
+            [
+              -98.1969985,
+              19.0054486
+            ],
+            [
+              -98.1970325,
+              19.0054613
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700719",
+        "building": "retail",
+        "building:levels": 1,
+        "name": "Papelería Darma II"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1969328,
+              19.0054613
+            ],
+            [
+              -98.196961,
+              19.0052965
+            ],
+            [
+              -98.1968765,
+              19.0052711
+            ],
+            [
+              -98.1968497,
+              19.005403
+            ],
+            [
+              -98.1968993,
+              19.0054194
+            ],
+            [
+              -98.1968899,
+              19.0054537
+            ],
+            [
+              -98.1969328,
+              19.0054613
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700720",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Tortas planchadas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.196839,
+              19.0054499
+            ],
+            [
+              -98.1968765,
+              19.0052711
+            ],
+            [
+              -98.1967585,
+              19.0052445
+            ],
+            [
+              -98.1967156,
+              19.0054194
+            ],
+            [
+              -98.196839,
+              19.0054499
+            ]
+          ]
+        ]
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700721",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1968618,
+              19.0055957
+            ],
+            [
+              -98.1968846,
+              19.0054664
+            ],
+            [
+              -98.1968309,
+              19.0054562
+            ],
+            [
+              -98.1968255,
+              19.0054854
+            ],
+            [
+              -98.1967129,
+              19.0054575
+            ],
+            [
+              -98.1966928,
+              19.0055678
+            ],
+            [
+              -98.1968618,
+              19.0055957
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700722",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1968403,
+              19.005687
+            ],
+            [
+              -98.1968564,
+              19.0056312
+            ],
+            [
+              -98.1968068,
+              19.0056223
+            ],
+            [
+              -98.1968148,
+              19.0055982
+            ],
+            [
+              -98.1966968,
+              19.0055767
+            ],
+            [
+              -98.196682,
+              19.0056604
+            ],
+            [
+              -98.1968403,
+              19.005687
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700723",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1966686,
+              19.0057631
+            ],
+            [
+              -98.1967558,
+              19.0057745
+            ],
+            [
+              -98.1967652,
+              19.0057466
+            ],
+            [
+              -98.1967731,
+              19.005748
+            ],
+            [
+              -98.1968282,
+              19.005758
+            ],
+            [
+              -98.1968376,
+              19.0056997
+            ],
+            [
+              -98.1966794,
+              19.0056692
+            ],
+            [
+              -98.1966686,
+              19.0057631
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700724",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1968658,
+              19.0058328
+            ],
+            [
+              -98.1967509,
+              19.0058077
+            ],
+            [
+              -98.1967437,
+              19.0058315
+            ],
+            [
+              -98.1967183,
+              19.0058277
+            ],
+            [
+              -98.1967209,
+              19.0057986
+            ],
+            [
+              -98.1966539,
+              19.0057808
+            ],
+            [
+              -98.1966391,
+              19.0058582
+            ],
+            [
+              -98.1967819,
+              19.0058874
+            ],
+            [
+              -98.1968497,
+              19.0059013
+            ],
+            [
+              -98.1968658,
+              19.0058328
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700725",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1970777,
+              19.0057542
+            ],
+            [
+              -98.1970844,
+              19.00572
+            ],
+            [
+              -98.1970173,
+              19.0057035
+            ],
+            [
+              -98.197024,
+              19.005673
+            ],
+            [
+              -98.1969985,
+              19.0056705
+            ],
+            [
+              -98.1970039,
+              19.0056401
+            ],
+            [
+              -98.1969315,
+              19.0056223
+            ],
+            [
+              -98.1969221,
+              19.0056616
+            ],
+            [
+              -98.1969436,
+              19.0056667
+            ],
+            [
+              -98.1969315,
+              19.0057225
+            ],
+            [
+              -98.1970777,
+              19.0057542
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700726",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1970146,
+              19.0058544
+            ],
+            [
+              -98.1970187,
+              19.0058201
+            ],
+            [
+              -98.1969892,
+              19.0058163
+            ],
+            [
+              -98.1969999,
+              19.0057859
+            ],
+            [
+              -98.1968832,
+              19.0057567
+            ],
+            [
+              -98.1968748,
+              19.0057939
+            ],
+            [
+              -98.1968692,
+              19.0058188
+            ],
+            [
+              -98.1970146,
+              19.0058544
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700727",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1969851,
+              19.0059114
+            ],
+            [
+              -98.1969878,
+              19.0058886
+            ],
+            [
+              -98.1970079,
+              19.0058899
+            ],
+            [
+              -98.1970066,
+              19.005862
+            ],
+            [
+              -98.1968953,
+              19.0058341
+            ],
+            [
+              -98.1968792,
+              19.0058937
+            ],
+            [
+              -98.1969851,
+              19.0059114
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700728",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1970348,
+              19.0060065
+            ],
+            [
+              -98.1970482,
+              19.0059292
+            ],
+            [
+              -98.1969301,
+              19.0059114
+            ],
+            [
+              -98.1969301,
+              19.0059266
+            ],
+            [
+              -98.1968631,
+              19.0059114
+            ],
+            [
+              -98.196847,
+              19.0059685
+            ],
+            [
+              -98.1970348,
+              19.0060065
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700731",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.196788,
+              19.0061067
+            ],
+            [
+              -98.1968014,
+              19.0060395
+            ],
+            [
+              -98.1967784,
+              19.0060346
+            ],
+            [
+              -98.1966201,
+              19.0060011
+            ],
+            [
+              -98.1966096,
+              19.0059989
+            ],
+            [
+              -98.1965976,
+              19.0060661
+            ],
+            [
+              -98.196788,
+              19.0061067
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700732",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1968255,
+              19.0060332
+            ],
+            [
+              -98.1968497,
+              19.0059013
+            ],
+            [
+              -98.1967819,
+              19.0058874
+            ],
+            [
+              -98.1967612,
+              19.0059609
+            ],
+            [
+              -98.1967759,
+              19.005966
+            ],
+            [
+              -98.1967665,
+              19.0059951
+            ],
+            [
+              -98.196788,
+              19.0059989
+            ],
+            [
+              -98.196788,
+              19.0060065
+            ],
+            [
+              -98.196788,
+              19.0060167
+            ],
+            [
+              -98.1968255,
+              19.0060332
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700733",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1967784,
+              19.0060346
+            ],
+            [
+              -98.196788,
+              19.0060065
+            ],
+            [
+              -98.1967531,
+              19.0059951
+            ],
+            [
+              -98.1967598,
+              19.0059723
+            ],
+            [
+              -98.1966284,
+              19.0059343
+            ],
+            [
+              -98.1966201,
+              19.0060011
+            ],
+            [
+              -98.1967784,
+              19.0060346
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700734",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1967612,
+              19.0059609
+            ],
+            [
+              -98.1967819,
+              19.0058874
+            ],
+            [
+              -98.1966391,
+              19.0058582
+            ],
+            [
+              -98.1966284,
+              19.0059343
+            ],
+            [
+              -98.1967612,
+              19.0059609
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700735",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1968692,
+              19.0058188
+            ],
+            [
+              -98.1968748,
+              19.0057939
+            ],
+            [
+              -98.1968376,
+              19.0057789
+            ],
+            [
+              -98.1968282,
+              19.005758
+            ],
+            [
+              -98.1967731,
+              19.005748
+            ],
+            [
+              -98.1967598,
+              19.0057815
+            ],
+            [
+              -98.1967424,
+              19.0057827
+            ],
+            [
+              -98.1967397,
+              19.0058018
+            ],
+            [
+              -98.1968692,
+              19.0058188
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/689700736",
+        "building": "house"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1970348,
+              19.0060065
+            ],
+            [
+              -98.196847,
+              19.0059685
+            ],
+            [
+              -98.1968255,
+              19.0060332
+            ],
+            [
+              -98.1969328,
+              19.0060636
+            ],
+            [
+              -98.1969462,
+              19.0060199
+            ],
+            [
+              -98.1970267,
+              19.0060402
+            ],
+            [
+              -98.1970348,
+              19.0060065
+            ]
+          ]
+        ]
+      },
+      "id": "way/689700736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353206",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1934594,
+              18.9977227
+            ],
+            [
+              -98.1935562,
+              18.9976851
+            ],
+            [
+              -98.1934981,
+              18.9975517
+            ],
+            [
+              -98.1934013,
+              18.9975894
+            ],
+            [
+              -98.1934594,
+              18.9977227
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353207",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1972677,
+              18.994752
+            ],
+            [
+              -98.1972481,
+              18.9946543
+            ],
+            [
+              -98.1971261,
+              18.9946763
+            ],
+            [
+              -98.1971458,
+              18.994774
+            ],
+            [
+              -98.1972677,
+              18.994752
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353208",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.197432,
+              18.9943196
+            ],
+            [
+              -98.1974114,
+              18.9942223
+            ],
+            [
+              -98.1973064,
+              18.9942421
+            ],
+            [
+              -98.197327,
+              18.9943394
+            ],
+            [
+              -98.197432,
+              18.9943196
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353209",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1980163,
+              18.9940868
+            ],
+            [
+              -98.1979957,
+              18.9939895
+            ],
+            [
+              -98.1978907,
+              18.9940094
+            ],
+            [
+              -98.1979113,
+              18.9941067
+            ],
+            [
+              -98.1980163,
+              18.9940868
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353210",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1988467,
+              18.9951691
+            ],
+            [
+              -98.1990157,
+              18.9951082
+            ],
+            [
+              -98.1990049,
+              18.9948394
+            ],
+            [
+              -98.1988413,
+              18.994885
+            ],
+            [
+              -98.1988467,
+              18.9951691
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353212",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1930989,
+              18.9948315
+            ],
+            [
+              -98.1931191,
+              18.9946944
+            ],
+            [
+              -98.1930432,
+              18.9946844
+            ],
+            [
+              -98.193023,
+              18.9948215
+            ],
+            [
+              -98.1930989,
+              18.9948315
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353213",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1953361,
+              18.9945614
+            ],
+            [
+              -98.1953437,
+              18.9944743
+            ],
+            [
+              -98.1952108,
+              18.9944638
+            ],
+            [
+              -98.1952031,
+              18.9945509
+            ],
+            [
+              -98.1953361,
+              18.9945614
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353214",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1952189,
+              18.9954929
+            ],
+            [
+              -98.195231,
+              18.9954178
+            ],
+            [
+              -98.1951379,
+              18.9954044
+            ],
+            [
+              -98.1951329,
+              18.9954352
+            ],
+            [
+              -98.1950467,
+              18.9954227
+            ],
+            [
+              -98.1950396,
+              18.995467
+            ],
+            [
+              -98.1952189,
+              18.9954929
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353215",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1936226,
+              18.9953801
+            ],
+            [
+              -98.1936375,
+              18.9952702
+            ],
+            [
+              -98.1935232,
+              18.9952564
+            ],
+            [
+              -98.1935083,
+              18.9953663
+            ],
+            [
+              -98.1936226,
+              18.9953801
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/718353216",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1937704,
+              18.995543
+            ],
+            [
+              -98.1937909,
+              18.9953722
+            ],
+            [
+              -98.1937006,
+              18.9953625
+            ],
+            [
+              -98.1936801,
+              18.9955334
+            ],
+            [
+              -98.1937704,
+              18.995543
+            ]
+          ]
+        ]
+      },
+      "id": "way/718353216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/879419942",
+        "addr:street": "Calle Río Papagayo",
+        "amenity": "fuel",
+        "brand": "Pemex",
+        "brand:wikidata": "Q871308",
+        "building": "roof",
+        "name": "Pemex"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1940838,
+              18.9996436
+            ],
+            [
+              -98.1942423,
+              18.9995416
+            ],
+            [
+              -98.1942243,
+              18.9993677
+            ],
+            [
+              -98.1940827,
+              18.9994644
+            ],
+            [
+              -98.1940838,
+              18.9996436
+            ]
+          ]
+        ]
+      },
+      "id": "way/879419942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/879419943",
+        "addr:street": "Calle Río Papagayo",
+        "amenity": "fuel",
+        "brand": "Pemex",
+        "brand:wikidata": "Q871308",
+        "building": "roof",
+        "name": "Pemex"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.194282,
+              18.9999455
+            ],
+            [
+              -98.1942576,
+              18.9997099
+            ],
+            [
+              -98.1940745,
+              18.9998348
+            ],
+            [
+              -98.1940781,
+              19.0000792
+            ],
+            [
+              -98.194282,
+              18.9999455
+            ]
+          ]
+        ]
+      },
+      "id": "way/879419943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1204791315",
+        "building": "retail",
+        "building:levels": 1,
+        "name": "Pabellon Universitario BUAP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2016613,
+              19.0023347
+            ],
+            [
+              -98.2016936,
+              19.00227
+            ],
+            [
+              -98.201505,
+              19.0021817
+            ],
+            [
+              -98.2014689,
+              19.002249
+            ],
+            [
+              -98.2016613,
+              19.0023347
+            ]
+          ]
+        ]
+      },
+      "id": "way/1204791315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1257609264",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.205912,
+              18.9947092
+            ],
+            [
+              -98.2058941,
+              18.9946885
+            ],
+            [
+              -98.2058765,
+              18.9947015
+            ],
+            [
+              -98.205895,
+              18.9947223
+            ],
+            [
+              -98.205912,
+              18.9947092
+            ]
+          ]
+        ]
+      },
+      "id": "way/1257609264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1258056339",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1941554,
+              18.9930138
+            ],
+            [
+              -98.1941577,
+              18.9929716
+            ],
+            [
+              -98.1940637,
+              18.9929657
+            ],
+            [
+              -98.1940609,
+              18.9930087
+            ],
+            [
+              -98.1941554,
+              18.9930138
+            ]
+          ]
+        ]
+      },
+      "id": "way/1258056339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1259460124",
+        "building": "yes",
+        "man_made": "tower",
+        "tower:type": "bell_tower"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.2059962,
+              18.9947767
+            ],
+            [
+              -98.205999,
+              18.9947741
+            ],
+            [
+              -98.2059904,
+              18.9947653
+            ],
+            [
+              -98.2059879,
+              18.9947677
+            ],
+            [
+              -98.2059962,
+              18.9947767
+            ]
+          ]
+        ]
+      },
+      "id": "way/1259460124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1262707342",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "description": "ARQUIDIÓCESIS DE PUEBLA\nZONA URBANA\nD5P7\nDeca 5: Ma Reina\nParr 7\nParroquia San José (La Hacienda)\n\n\nCa2    D5P7\nCapilla San Juan Pablo II\nC246_CAMINO REAL\nCP 72570\nproyecto raika\nAutor: Movimiento Bonum Commune",
+        "name": "Capilla San Juan Pablo II",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1933578,
+              18.9991107
+            ],
+            [
+              -98.1933398,
+              18.9991346
+            ],
+            [
+              -98.193319,
+              18.9991622
+            ],
+            [
+              -98.1933593,
+              18.9991893
+            ],
+            [
+              -98.1933689,
+              18.9991765
+            ],
+            [
+              -98.193392,
+              18.9991921
+            ],
+            [
+              -98.1933853,
+              18.9992009
+            ],
+            [
+              -98.1934459,
+              18.9992426
+            ],
+            [
+              -98.1934818,
+              18.9991911
+            ],
+            [
+              -98.1934215,
+              18.9991537
+            ],
+            [
+              -98.1933907,
+              18.9991329
+            ],
+            [
+              -98.1933578,
+              18.9991107
+            ]
+          ]
+        ]
+      },
+      "id": "way/1262707342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1262707343",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1933853,
+              18.9992009
+            ],
+            [
+              -98.1934459,
+              18.9992426
+            ],
+            [
+              -98.1934818,
+              18.9991911
+            ],
+            [
+              -98.1934215,
+              18.9991537
+            ],
+            [
+              -98.1933853,
+              18.9992009
+            ]
+          ]
+        ]
+      },
+      "id": "way/1262707343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1262707344",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.1933735,
+              18.9991558
+            ],
+            [
+              -98.1933907,
+              18.9991329
+            ],
+            [
+              -98.1933578,
+              18.9991107
+            ],
+            [
+              -98.1933398,
+              18.9991346
+            ],
+            [
+              -98.1933735,
+              18.9991558
+            ]
+          ]
+        ]
+      },
+      "id": "way/1262707344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1262707354",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.193405,
+              18.9993529
+            ],
+            [
+              -98.1934397,
+              18.9993749
+            ],
+            [
+              -98.1934734,
+              18.9993274
+            ],
+            [
+              -98.1934387,
+              18.9993054
+            ],
+            [
+              -98.193405,
+              18.9993529
+            ]
+          ]
+        ]
+      },
+      "id": "way/1262707354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building:levels": 2,
+        "name": "CCO5",
+        "amenity": "default"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -98.20456849283471,
+            19.005327755893106
+          ],
+          [
+            -98.20453810338445,
+            19.005410761940865
+          ],
+          [
+            -98.2043287538363,
+            19.005353296219653
+          ],
+          [
+            -98.20435576668136,
+            19.005273482686107
+          ],
+          [
+            -98.20456173962354,
+            19.00531817826962
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": 114
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CCO4",
+        "building:levels": 3,
+        "amenity": "default"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.20480797165212,
+              19.00551753352262
+            ],
+            [
+              -98.20482338555847,
+              19.00551681756439
+            ],
+            [
+              -98.2048386510201,
+              19.005514676584795
+            ],
+            [
+              -98.20485362102184,
+              19.005511131202695
+            ],
+            [
+              -98.20486815139411,
+              19.005506215562136
+            ],
+            [
+              -98.20488210220113,
+              19.00549997700355
+            ],
+            [
+              -98.20489533908874,
+              19.00549247560781
+            ],
+            [
+              -98.2049077345783,
+              19.005483783617628
+            ],
+            [
+              -98.20491916929437,
+              19.005473984741787
+            ],
+            [
+              -98.20492953311432,
+              19.00546317334902
+            ],
+            [
+              -98.20493872622899,
+              19.005451453559125
+            ],
+            [
+              -98.20494666010372,
+              19.00543893824027
+            ],
+            [
+              -98.20495325833114,
+              19.00542574792199
+            ],
+            [
+              -98.204958457367,
+              19.00541200963439
+            ],
+            [
+              -98.20496220714205,
+              19.00539785568482
+            ],
+            [
+              -98.20496447154423,
+              19.005383422383634
+            ],
+            [
+              -98.20496522876651,
+              19.005368848731468
+            ],
+            [
+              -98.20496447151682,
+              19.005354275080578
+            ],
+            [
+              -98.20496220708824,
+              19.005339841783176
+            ],
+            [
+              -98.20495845728891,
+              19.005325687839743
+            ],
+            [
+              -98.20495325823175,
+              19.005311949560408
+            ],
+            [
+              -98.20494665998685,
+              19.00529875925219
+            ],
+            [
+              -98.20493872609913,
+              19.005286243944827
+            ],
+            [
+              -98.20492953297646,
+              19.0052745241674
+            ],
+            [
+              -98.20491916915381,
+              19.005263712787595
+            ],
+            [
+              -98.20490773444044,
+              19.005253913924722
+            ],
+            [
+              -98.20489533895888,
+              19.005245221947003
+            ],
+            [
+              -98.20488210208424,
+              19.005237720562747
+            ],
+            [
+              -98.20486815129472,
+              19.005231482014235
+            ],
+            [
+              -98.20485362094377,
+              19.00522656638194
+            ],
+            [
+              -98.20483865096632,
+              19.00522302100598
+            ],
+            [
+              -98.20482338553104,
+              19.005220880030166
+            ],
+            [
+              -98.20480797165212,
+              19.00522016407321
+            ],
+            [
+              -98.20479255777319,
+              19.005220880030166
+            ],
+            [
+              -98.20477729233792,
+              19.00522302100598
+            ],
+            [
+              -98.20476232236045,
+              19.00522656638194
+            ],
+            [
+              -98.2047477920095,
+              19.005231482014235
+            ],
+            [
+              -98.20473384121998,
+              19.005237720562747
+            ],
+            [
+              -98.20472060434535,
+              19.005245221947003
+            ],
+            [
+              -98.20470820886378,
+              19.005253913924722
+            ],
+            [
+              -98.20469677415042,
+              19.005263712787595
+            ],
+            [
+              -98.20468641032775,
+              19.0052745241674
+            ],
+            [
+              -98.2046772172051,
+              19.005286243944827
+            ],
+            [
+              -98.20466928331739,
+              19.00529875925219
+            ],
+            [
+              -98.20466268507246,
+              19.005311949560408
+            ],
+            [
+              -98.20465748601531,
+              19.005325687839743
+            ],
+            [
+              -98.20465373621597,
+              19.005339841783176
+            ],
+            [
+              -98.20465147178743,
+              19.005354275080578
+            ],
+            [
+              -98.20465071453772,
+              19.005368848731468
+            ],
+            [
+              -98.20465147176,
+              19.005383422383634
+            ],
+            [
+              -98.20465373616219,
+              19.00539785568482
+            ],
+            [
+              -98.20465748593722,
+              19.00541200963439
+            ],
+            [
+              -98.20466268497307,
+              19.00542574792199
+            ],
+            [
+              -98.20466928320052,
+              19.00543893824027
+            ],
+            [
+              -98.20467721707524,
+              19.005451453559125
+            ],
+            [
+              -98.2046864101899,
+              19.00546317334902
+            ],
+            [
+              -98.20469677400985,
+              19.005473984741787
+            ],
+            [
+              -98.20470820872592,
+              19.005483783617628
+            ],
+            [
+              -98.2047206042155,
+              19.00549247560781
+            ],
+            [
+              -98.2047338411031,
+              19.00549997700355
+            ],
+            [
+              -98.20474779191011,
+              19.005506215562136
+            ],
+            [
+              -98.20476232228238,
+              19.005511131202695
+            ],
+            [
+              -98.20477729228413,
+              19.005514676584795
+            ],
+            [
+              -98.20479255774575,
+              19.00551681756439
+            ],
+            [
+              -98.20480797165212,
+              19.00551753352262
+            ]
+          ]
+        ]
+      },
+      "id": 115
+    }
+  ]
+}
