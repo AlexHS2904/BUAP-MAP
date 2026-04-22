@@ -1,4 +1,4 @@
-mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
+mapboxgl.accessToken = window.__MAPBOX_TOKEN__;
 
 // ── COORDENADAS ────────────────────────────────────────────
 const buapCoords = [
