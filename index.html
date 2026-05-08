@@ -12,260 +12,161 @@
 
   <style>
     :root {
-      --cream:    #F5EDD6;
-      --brown:    #3B2A1A;
-      --gold:     #C9933A;
-      --panel-bg: rgba(245, 237, 214, 0.97);
+      --bg:       #0F1E35;          /* azul marino profundo — fondo app */
+      --navy:     #162640;          /* navy medio — paneles oscuros */
+      --accent:   #3B82F6;          /* azul vivo — acento principal */
+      --accent2:  #60A5FA;          /* azul claro — hover / secundario */
+      --panel-bg: rgba(245, 248, 255, 0.98); /* blanco azulado — paneles claros */
+      --ink:      #1E293B;          /* casi negro azulado — texto principal */
+      --muted:    #64748B;          /* gris azulado — texto secundario */
+      --border:   rgba(148,163,184,0.2); /* borde sutil gris-azul */
+      --light:    #F1F5FF;          /* fondo muy claro */
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    html, body {
-      width: 100%; height: 100%;
-      font-family: 'DM Sans', system-ui, sans-serif;
-      background: #2C1F10;
-      overflow: hidden;
-    }
-
+    html, body { width: 100%; height: 100%; font-family: 'DM Sans', system-ui, sans-serif; background: var(--bg); overflow: hidden; }
     #map { position: absolute; inset: 0; }
 
-    .header {
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      z-index: 20;
-      padding: 16px 20px 12px;
-      background: linear-gradient(to bottom, rgba(44,31,16,0.92) 0%, transparent 100%);
-      pointer-events: none;
-    }
-    .header-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 22px;
-      color: var(--cream);
-      letter-spacing: 0.02em;
-    }
-    .header-subtitle {
-      font-size: 11px;
-      color: rgba(245,237,214,0.6);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-top: 1px;
-    }
+    /* ── HEADER ── */
+    .header { position: absolute; top: 0; left: 0; right: 0; z-index: 20; padding: 16px 20px 12px; background: linear-gradient(to bottom, rgba(15,30,53,0.93) 0%, transparent 100%); pointer-events: none; }
+    .header-title { font-family: 'Playfair Display', serif; font-size: 22px; color: #E8F0FF; letter-spacing: 0.02em; }
+    .header-subtitle { font-size: 11px; color: rgba(180,200,255,0.6); letter-spacing: 0.08em; text-transform: uppercase; margin-top: 1px; }
 
-    .filters {
-      position: absolute;
-      top: 80px; left: 0; right: 0;
-      z-index: 20;
-      padding: 0 16px;
-      display: flex;
-      gap: 8px;
-      overflow-x: auto;
-      scrollbar-width: none;
-    }
+    /* ── USER BAR ── */
+    #user-bar { position: absolute; top: 0; right: 0; z-index: 25; padding: 14px 16px; display: flex; align-items: center; gap: 8px; }
+    .user-bar-name { font-size: 12px; color: rgba(180,200,255,0.85); font-weight: 500; max-width: 120px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .user-bar-btn { border: none; border-radius: 8px; padding: 6px 10px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: all 0.15s ease; }
+    .admin-btn  { background: rgba(59,130,246,0.18); color: var(--accent2); border: 1px solid rgba(59,130,246,0.35); }
+    .admin-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+    .fav-btn    { background: rgba(180,200,255,0.12); color: #B4C8FF; }
+    .fav-btn:hover { background: rgba(180,200,255,0.22); }
+    .logout-btn { background: rgba(239,68,68,0.12); color: #FCA5A5; }
+    .logout-btn:hover { background: rgba(239,68,68,0.22); }
+
+    /* ── FILTERS ── */
+    .filters { position: absolute; top: 80px; left: 0; right: 0; z-index: 20; padding: 0 16px; display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
     .filters::-webkit-scrollbar { display: none; }
-
-    .chip {
-      flex-shrink: 0;
-      display: flex; align-items: center; gap: 6px;
-      padding: 7px 14px;
-      border-radius: 999px;
-      border: 1.5px solid rgba(245,237,214,0.25);
-      background: rgba(44,31,16,0.75);
-      color: rgba(245,237,214,0.85);
-      font-size: 13px; font-weight: 500;
-      cursor: pointer;
-      backdrop-filter: blur(10px);
-      transition: all 0.18s ease;
-      white-space: nowrap;
-      user-select: none;
-    }
-    .chip:hover { border-color: var(--gold); color: var(--cream); }
-    .chip.active { background: var(--gold); border-color: var(--gold); color: var(--brown); }
+    .chip { flex-shrink: 0; display: flex; align-items: center; gap: 6px; padding: 7px 14px; border-radius: 999px; border: 1.5px solid rgba(180,200,255,0.2); background: rgba(15,30,53,0.78); color: rgba(180,200,255,0.85); font-size: 13px; font-weight: 500; cursor: pointer; backdrop-filter: blur(10px); transition: all 0.18s ease; white-space: nowrap; user-select: none; }
+    .chip:hover { border-color: var(--accent2); color: #E8F0FF; }
+    .chip.active { background: var(--accent); border-color: var(--accent); color: white; }
     .chip-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
-    .controls {
-      position: absolute;
-      right: 16px; bottom: 220px;
-      z-index: 20;
-      display: flex; flex-direction: column; gap: 8px;
-    }
-    .ctrl-btn {
-      width: 40px; height: 40px;
-      border-radius: 10px;
-      border: 1px solid rgba(245,237,214,0.15);
-      background: rgba(44,31,16,0.85);
-      color: var(--cream);
-      font-size: 18px; cursor: pointer;
-      backdrop-filter: blur(10px);
-      transition: all 0.15s ease;
-      display: flex; align-items: center; justify-content: center;
-    }
-    .ctrl-btn:hover { background: var(--gold); color: var(--brown); }
+    /* ── CONTROLS ── */
+    .controls { position: absolute; right: 16px; bottom: 220px; z-index: 20; display: flex; flex-direction: column; gap: 8px; }
+    .ctrl-btn { width: 40px; height: 40px; border-radius: 10px; border: 1px solid rgba(180,200,255,0.15); background: rgba(15,30,53,0.88); color: #B4C8FF; font-size: 18px; cursor: pointer; backdrop-filter: blur(10px); transition: all 0.15s ease; display: flex; align-items: center; justify-content: center; }
+    .ctrl-btn:hover { background: var(--accent); color: white; border-color: var(--accent); }
+    #btn-location { position: absolute; right: 16px; bottom: 160px; z-index: 20; width: 40px; height: 40px; border-radius: 10px; border: 1px solid rgba(180,200,255,0.15); background: rgba(15,30,53,0.88); color: #B4C8FF; font-size: 18px; cursor: pointer; backdrop-filter: blur(10px); transition: all 0.15s ease; display: flex; align-items: center; justify-content: center; }
+    #btn-location:hover { background: var(--accent); color: white; border-color: var(--accent); }
 
-    /* ── Detail panel ── */
-    .detail-panel {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      z-index: 30;
-      background: var(--panel-bg);
-      border-radius: 20px 20px 0 0;
-      padding: 0 20px 40px;
-      transform: translateY(100%);
-      transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
-      box-shadow: 0 -4px 30px rgba(0,0,0,0.35);
-    }
+    /* ── DETAIL PANEL ── */
+    .detail-panel { position: absolute; bottom: 0; left: 0; right: 0; z-index: 30; background: var(--panel-bg); border-radius: 20px 20px 0 0; padding: 0 20px 40px; transform: translateY(100%); transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1); box-shadow: 0 -4px 30px rgba(15,30,53,0.3); }
     .detail-panel.open { transform: translateY(0); }
+    .panel-handle { width: 36px; height: 4px; background: rgba(30,41,59,0.15); border-radius: 2px; margin: 12px auto 16px; }
+    .panel-badge { display: inline-flex; align-items: center; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: white; padding: 3px 10px; border-radius: 999px; margin-bottom: 8px; }
+    .panel-name { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--ink); line-height: 1.2; margin-bottom: 6px; }
+    .panel-desc { font-size: 14px; color: var(--muted); line-height: 1.6; margin-bottom: 12px; }
+    .panel-close { position: absolute; top: 16px; right: 20px; width: 30px; height: 30px; border-radius: 50%; border: none; background: rgba(30,41,59,0.08); color: var(--ink); font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
 
-    .panel-handle {
-      width: 36px; height: 4px;
-      background: rgba(59,42,26,0.2);
-      border-radius: 2px;
-      margin: 12px auto 16px;
-    }
-    .panel-badge {
-      display: inline-flex; align-items: center;
-      font-size: 11px; font-weight: 600;
-      letter-spacing: 0.06em; text-transform: uppercase;
-      color: white; padding: 3px 10px;
-      border-radius: 999px; margin-bottom: 8px;
-    }
-    .panel-name {
-      font-family: 'Playfair Display', serif;
-      font-size: 22px; color: var(--brown);
-      line-height: 1.2; margin-bottom: 6px;
-    }
-    .panel-desc {
-      font-size: 14px; color: rgba(59,42,26,0.65);
-      line-height: 1.6; margin-bottom: 16px;
-    }
-    .panel-close {
-      position: absolute; top: 16px; right: 20px;
-      width: 30px; height: 30px;
-      border-radius: 50%; border: none;
-      background: rgba(59,42,26,0.1); color: var(--brown);
-      font-size: 18px; cursor: pointer;
-      display: flex; align-items: center; justify-content: center;
-    }
+    /* Botón favorito en panel */
+    #panel-fav-btn { width: 100%; margin-bottom: 10px; padding: 10px; border-radius: 12px; border: 1.5px solid rgba(59,130,246,0.35); background: transparent; color: var(--accent); font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.15s ease; }
+    #panel-fav-btn.active { background: rgba(59,130,246,0.1); }
+    #panel-fav-btn:hover  { background: rgba(59,130,246,0.1); }
 
-    /* ── Botones de navegación dentro del panel ── */
-    .panel-nav-btns {
-      display: flex; gap: 8px; margin-bottom: 12px;
-    }
-    .panel-nav-btn {
-      flex: 1; padding: 10px 8px;
-      border-radius: 12px; border: none;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 12px; font-weight: 600;
-      cursor: pointer; display: flex;
-      align-items: center; justify-content: center; gap: 5px;
-    }
-    #btn-nav-user { background: #1A73E8; color: white; display: none; }
-    #btn-nav-poi  { background: var(--brown); color: var(--cream); }
-
+    .panel-nav-btns { display: flex; gap: 8px; margin-bottom: 10px; }
+    .panel-nav-btn { flex: 1; padding: 10px 8px; border-radius: 12px; border: none; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 5px; }
+    #btn-nav-user { background: var(--accent); color: white; display: none; }
+    #btn-nav-poi  { background: var(--ink); color: white; }
     .panel-actions { display: flex; gap: 10px; }
-    .panel-btn {
-      flex: 1; padding: 10px; border-radius: 12px; border: none;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 13px; font-weight: 600; cursor: pointer;
-    }
-    .panel-btn.primary   { background: var(--brown); color: var(--cream); }
-    .panel-btn.secondary { background: rgba(59,42,26,0.1); color: var(--brown); }
+    .panel-btn { flex: 1; padding: 10px; border-radius: 12px; border: none; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .panel-btn.primary   { background: var(--ink); color: white; }
+    .panel-btn.secondary { background: rgba(30,41,59,0.08); color: var(--ink); }
 
-    /* ── Botón de ubicación ── */
-    #btn-location {
-      position: absolute;
-      right: 16px; bottom: 160px;
-      z-index: 20;
-      width: 40px; height: 40px;
-      border-radius: 10px;
-      border: 1px solid rgba(245,237,214,0.15);
-      background: rgba(44,31,16,0.85);
-      color: var(--cream);
-      font-size: 18px; cursor: pointer;
-      backdrop-filter: blur(10px);
-      transition: all 0.15s ease;
-      display: flex; align-items: center; justify-content: center;
-    }
-    #btn-location:hover { background: #1A73E8; }
-
-    /* ── Barra de navegación activa ── */
-    #nav-bar {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      z-index: 35;
-      background: var(--brown);
-      color: var(--cream);
-      padding: 16px 20px 36px;
-      border-radius: 20px 20px 0 0;
-      transform: translateY(100%);
-      transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
-      display: flex; align-items: center; gap: 12px;
-      box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
-    }
+    /* ── NAV BAR ── */
+    #nav-bar { position: absolute; bottom: 0; left: 0; right: 0; z-index: 35; background: var(--navy); color: #E8F0FF; padding: 16px 20px 36px; border-radius: 20px 20px 0 0; transform: translateY(100%); transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1); display: flex; align-items: center; gap: 12px; box-shadow: 0 -4px 20px rgba(0,0,0,0.3); border-top: 1px solid rgba(59,130,246,0.25); }
     #nav-bar.open { transform: translateY(0); }
     #nav-bar-icon { font-size: 28px; }
     #nav-bar-info { flex: 1; }
     #nav-dest { font-family: 'Playfair Display', serif; font-size: 16px; margin-bottom: 2px; }
     #nav-meta { display: flex; gap: 12px; font-size: 12px; opacity: 0.75; }
     #nav-mode-label { font-size: 11px; opacity: 0.5; margin-top: 2px; }
-    #nav-bar-close {
-      width: 34px; height: 34px; border-radius: 50%;
-      background: rgba(255,255,255,0.12); border: none;
-      color: var(--cream); font-size: 18px; cursor: pointer;
-      display: flex; align-items: center; justify-content: center;
-    }
+    #nav-bar-close { width: 34px; height: 34px; border-radius: 50%; background: rgba(255,255,255,0.1); border: none; color: #E8F0FF; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
 
-    /* ── Modal selector de POI origen ── */
-    #poi-selector {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      z-index: 40;
-      background: var(--panel-bg);
-      border-radius: 20px 20px 0 0;
-      padding: 16px 20px 40px;
-      transform: translateY(100%);
-      transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
-      box-shadow: 0 -4px 30px rgba(0,0,0,0.25);
-    }
+    /* ── POI SELECTOR ── */
+    #poi-selector { position: absolute; bottom: 0; left: 0; right: 0; z-index: 40; background: var(--panel-bg); border-radius: 20px 20px 0 0; padding: 16px 20px 40px; transform: translateY(100%); transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1); box-shadow: 0 -4px 30px rgba(15,30,53,0.25); }
     #poi-selector.open { transform: translateY(0); }
-    #poi-selector h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 18px; color: var(--brown); margin-bottom: 14px;
-    }
-    #poi-selector-close {
-      position: absolute; top: 16px; right: 20px;
-      width: 30px; height: 30px; border-radius: 50%;
-      border: none; background: rgba(59,42,26,0.1);
-      color: var(--brown); font-size: 18px; cursor: pointer;
-      display: flex; align-items: center; justify-content: center;
-    }
+    #poi-selector h3 { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--ink); margin-bottom: 14px; }
+    #poi-selector-close { position: absolute; top: 16px; right: 20px; width: 30px; height: 30px; border-radius: 50%; border: none; background: rgba(30,41,59,0.08); color: var(--ink); font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
     #poi-selector-list { display: flex; flex-direction: column; gap: 8px; }
-    .poi-selector-item {
-      display: flex; align-items: center; gap: 12px;
-      padding: 12px 16px; border-radius: 12px; border: none;
-      background: rgba(59,42,26,0.07);
-      font-family: 'DM Sans', sans-serif;
-      font-size: 14px; font-weight: 500;
-      color: var(--brown); cursor: pointer;
-      text-align: left; transition: background 0.15s;
-    }
-    .poi-selector-item:hover { background: rgba(201,147,58,0.15); }
+    .poi-selector-item { display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-radius: 12px; border: none; background: rgba(30,41,59,0.05); font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; color: var(--ink); cursor: pointer; text-align: left; transition: background 0.15s; }
+    .poi-selector-item:hover { background: rgba(59,130,246,0.1); }
 
-    /* ── Toast de error ── */
-    #nav-error {
-      position: absolute;
-      bottom: 100px; left: 50%;
-      transform: translateX(-50%) translateY(20px);
-      z-index: 50;
-      background: #B84040; color: white;
-      padding: 10px 18px; border-radius: 999px;
-      font-size: 13px; font-weight: 500;
-      white-space: nowrap; opacity: 0; pointer-events: none;
-      transition: opacity 0.3s, transform 0.3s;
-    }
+    /* ── NAV ERROR TOAST ── */
+    #nav-error { position: absolute; bottom: 100px; left: 50%; transform: translateX(-50%) translateY(20px); z-index: 50; background: #1E3A5F; color: #E8F0FF; border: 1px solid rgba(59,130,246,0.4); padding: 10px 18px; border-radius: 999px; font-size: 13px; font-weight: 500; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity 0.3s, transform 0.3s; }
     #nav-error.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
-    .mapboxgl-ctrl-bottom-left,
-    .mapboxgl-ctrl-bottom-right { display: none !important; }
+    /* ── LOGIN OVERLAY ── */
+    #login-overlay { position: fixed; inset: 0; z-index: 100; background: linear-gradient(135deg, #0A1628 0%, #0F1E35 50%, #071020 100%); display: flex; align-items: center; justify-content: center; transition: opacity 0.4s ease; }
+    #login-overlay.fade-out { opacity: 0; }
+    .login-card { width: 320px; padding: 32px 28px; background: var(--panel-bg); border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+    .login-logo { font-size: 40px; text-align: center; margin-bottom: 8px; }
+    .login-title { font-family: 'Playfair Display', serif; font-size: 26px; color: var(--ink); text-align: center; margin-bottom: 4px; }
+    .login-sub { font-size: 13px; color: var(--muted); text-align: center; margin-bottom: 24px; }
+    .login-field { margin-bottom: 14px; }
+    .login-field label { display: block; font-size: 12px; font-weight: 600; color: var(--muted); margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .login-field input, .login-field select { width: 100%; padding: 10px 14px; border-radius: 10px; border: 1.5px solid var(--border); background: white; color: var(--ink); font-family: 'DM Sans', sans-serif; font-size: 14px; outline: none; transition: border-color 0.2s; }
+    .login-field input:focus, .login-field select:focus { border-color: var(--accent); }
+    .login-error { font-size: 13px; color: #EF4444; min-height: 18px; margin-bottom: 8px; text-align: center; }
+    .login-btn { width: 100%; padding: 12px; border-radius: 12px; border: none; background: var(--ink); color: white; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600; cursor: pointer; transition: background 0.15s ease; }
+    .login-btn:hover { background: var(--accent); }
+    .login-btn.secondary { background: rgba(30,41,59,0.08); color: var(--ink); margin-top: 8px; }
+    .login-btn.secondary:hover { background: rgba(30,41,59,0.14); }
+    .login-hint { display: flex; justify-content: center; gap: 16px; margin-top: 16px; }
+    .login-hint span { font-size: 11px; color: var(--muted); background: rgba(30,41,59,0.06); padding: 3px 8px; border-radius: 6px; font-family: monospace; }
+
+    /* ── FAVORITOS PANEL ── */
+    #fav-panel { position: absolute; bottom: 0; left: 0; right: 0; z-index: 45; background: var(--panel-bg); border-radius: 20px 20px 0 0; padding: 0 20px 40px; transform: translateY(100%); transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1); box-shadow: 0 -4px 30px rgba(15,30,53,0.3); max-height: 70vh; overflow-y: auto; }
+    #fav-panel.open { transform: translateY(0); }
+    .fav-title { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--ink); margin-bottom: 16px; margin-top: 4px; }
+    .fav-empty { font-size: 14px; color: var(--muted); text-align: center; padding: 24px 0; line-height: 1.7; }
+    .fav-item { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid rgba(30,41,59,0.07); cursor: pointer; }
+    .fav-item:last-child { border-bottom: none; }
+    .fav-item-emoji { width: 38px; height: 38px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
+    .fav-item-info { flex: 1; min-width: 0; }
+    .fav-item-name { font-size: 14px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .fav-item-cat  { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .fav-item-remove { background: none; border: none; color: rgba(30,41,59,0.25); font-size: 16px; cursor: pointer; padding: 4px 8px; border-radius: 6px; }
+    .fav-item-remove:hover { background: rgba(239,68,68,0.1); color: #EF4444; }
+
+    /* ── BOTONES ADMIN en panel ── */
+    #panel-admin-actions { display: flex; gap: 8px; margin-bottom: 10px; }
+    .panel-admin-btn { flex: 1; padding: 9px 8px; border-radius: 10px; border: none; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s ease; }
+    .panel-admin-btn.edit   { background: rgba(59,130,246,0.1); color: var(--accent); }
+    .panel-admin-btn.edit:hover   { background: rgba(59,130,246,0.2); }
+    .panel-admin-btn.delete { background: rgba(239,68,68,0.08); color: #EF4444; }
+    .panel-admin-btn.delete:hover { background: rgba(239,68,68,0.16); }
+
+    /* ── MODAL EDITAR / CONFIRMAR ── */
+    #edit-poi-modal, #confirm-modal { position: fixed; inset: 0; z-index: 60; background: rgba(10,22,40,0.72); backdrop-filter: blur(4px); display: flex; align-items: flex-end; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+    #edit-poi-modal.open, #confirm-modal.open { opacity: 1; pointer-events: all; }
+    #edit-poi-modal .add-poi-card, #confirm-modal .add-poi-card { transform: translateY(40px); transition: transform 0.3s ease; }
+    #edit-poi-modal.open .add-poi-card, #confirm-modal.open .add-poi-card { transform: translateY(0); }
+
+    /* ── ADD POI MODAL ── */
+    #add-poi-modal { position: fixed; inset: 0; z-index: 60; background: rgba(10,22,40,0.72); backdrop-filter: blur(4px); display: flex; align-items: flex-end; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+    #add-poi-modal.open { opacity: 1; pointer-events: all; }
+    .add-poi-card { width: 100%; max-width: 480px; background: var(--panel-bg); border-radius: 24px 24px 0 0; padding: 24px 24px 40px; transform: translateY(40px); transition: transform 0.3s ease; }
+    #add-poi-modal.open .add-poi-card { transform: translateY(0); }
+    .add-poi-title { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--ink); margin-bottom: 4px; }
+    .add-poi-coords { font-size: 12px; color: var(--muted); margin-bottom: 16px; font-family: monospace; }
+    .add-poi-btns { display: flex; gap: 10px; margin-top: 4px; }
+    .add-poi-btns .login-btn { margin-top: 0; }
+
+    .mapboxgl-ctrl-bottom-left, .mapboxgl-ctrl-bottom-right { display: none !important; }
+
+    .login-logo img {
+      width: 160px;
+      height: auto;
+    }
   </style>
 </head>
 <body>
@@ -294,17 +195,22 @@
     <button class="ctrl-btn" id="btn-rotate">↻</button>
   </div>
 
-  <!-- Botón de ubicación -->
   <button id="btn-location" title="Mi ubicación">📍</button>
 
-  <!-- Detail panel — con botones de nav DENTRO -->
+  <!-- Detail panel -->
   <div class="detail-panel" id="detail-panel">
     <div class="panel-handle"></div>
     <button class="panel-close" id="panel-close">×</button>
     <div class="panel-badge" id="panel-badge">Lugar</div>
     <div class="panel-name"  id="panel-name">Nombre</div>
     <div class="panel-desc"  id="panel-desc">Descripción</div>
-    <!-- ↓ Botones de navegación AQUÍ, dentro del panel -->
+    <!-- Botón favorito -->
+    <button id="panel-fav-btn">☆ Favorito</button>
+    <!-- Acciones admin (ocultas para usuarios normales) -->
+    <div id="panel-admin-actions" style="display:none">
+      <button class="panel-admin-btn edit"   id="btn-poi-edit">✏️ Editar</button>
+      <button class="panel-admin-btn delete" id="btn-poi-delete">🗑️ Eliminar</button>
+    </div>
     <div class="panel-nav-btns">
       <button class="panel-nav-btn" id="btn-nav-user">📍 Desde aquí</button>
       <button class="panel-nav-btn" id="btn-nav-poi">🗺️ Entre puntos</button>
@@ -315,7 +221,7 @@
     </div>
   </div>
 
-  <!-- Barra de navegación activa -->
+  <!-- Nav bar -->
   <div id="nav-bar">
     <div id="nav-bar-icon">🧭</div>
     <div id="nav-bar-info">
@@ -329,18 +235,18 @@
     <button id="nav-bar-close">✕</button>
   </div>
 
-  <!-- Modal selector de POI origen -->
+  <!-- POI selector -->
   <div id="poi-selector">
     <button id="poi-selector-close">×</button>
     <h3>¿Desde dónde sales?</h3>
     <div id="poi-selector-list"></div>
   </div>
 
-  <!-- Toast de errores -->
+  <!-- Toast errores -->
   <div id="nav-error"></div>
 
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
   <script>window.__MAPBOX_TOKEN__ = '%VITE_MAPBOX_TOKEN%';</script>
   <script type="module" src="./src/main.js"></script>
 </body>
-</html>x
+</html>
