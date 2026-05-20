@@ -28,13 +28,13 @@ const CATS = {
 // ── POIs BASE ────────────────────────────────────────────
 // Los POIs base tienen isBase:true — el admin puede editarlos pero no eliminarlos
 const BASE_POIS = [
-  { id: 'base-1', name: 'Facultad de Ingeniería',      coords: [-98.1996, 19.00155], cat: 'aulas',      desc: 'Ingenierías civil, mecánica, electrónica y más.',  isBase: true },
-  { id: 'base-2', name: 'Biblioteca José M. Lafragua', coords: [-98.1982, 19.00055], cat: 'biblioteca', desc: 'La biblioteca central del campus universitario.',   isBase: true },
-  { id: 'base-3', name: 'Estadio Universitario BUAP',  coords: [-98.2010, 18.9970],  cat: 'deportivo',  desc: 'Estadio de futbol y pista de atletismo.',           isBase: true },
-  { id: 'base-4', name: 'Facultad de Derecho',         coords: [-98.1975, 19.0018],  cat: 'aulas',      desc: 'Licenciatura y posgrado en Ciencias Jurídicas.',    isBase: true },
-  { id: 'base-5', name: 'Rectoría BUAP',               coords: [-98.1993, 19.0025],  cat: 'admin',      desc: 'Oficinas centrales de la rectoría universitaria.',  isBase: true },
-  { id: 'base-6', name: 'Facultad de Arquitectura',    coords: [-98.2028, 19.0035],  cat: 'aulas',      desc: 'Diseño urbano, arquitectura e interiorismo.',       isBase: true },
-  { id: 'base-7', name: 'Cafetería Central',           coords: [-98.2000, 19.0005],  cat: 'comida',     desc: 'Cafetería principal con menú del día.',             isBase: true },
+  { id: 'base-1', name: 'Facultad de Ingeniería',      coords: [-98.1996, 19.00155], cat: 'aulas',      desc: 'Ingenierías civil, mecánica, electrónica y más.'},
+  { id: 'base-2', name: 'Biblioteca José M. Lafragua', coords: [-98.1982, 19.00055], cat: 'biblioteca', desc: 'La biblioteca central del campus universitario.'},
+  { id: 'base-3', name: 'Estadio Universitario BUAP',  coords: [-98.2010, 18.9970],  cat: 'deportivo',  desc: 'Estadio de futbol y pista de atletismo.' },
+  { id: 'base-4', name: 'Facultad de Derecho',         coords: [-98.1975, 19.0018],  cat: 'aulas',      desc: 'Licenciatura y posgrado en Ciencias Jurídicas.'},
+  { id: 'base-5', name: 'Rectoría BUAP',               coords: [-98.1993, 19.0025],  cat: 'admin',      desc: 'Oficinas centrales de la rectoría universitaria.'},
+  { id: 'base-6', name: 'Facultad de Arquitectura',    coords: [-98.2028, 19.0035],  cat: 'aulas',      desc: 'Diseño urbano, arquitectura e interiorismo.' },
+  { id: 'base-7', name: 'Cafetería Central',           coords: [-98.2000, 19.0005],  cat: 'comida',     desc: 'Cafetería principal con menú del día.' },
 ];
 
 const CUSTOM_POIS_KEY  = 'buap_custom_pois';
