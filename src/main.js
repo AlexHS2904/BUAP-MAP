@@ -923,23 +923,30 @@ function initApp(session) {
     map.once('load', loadMarkers);
   }
 
-  const favBtn = document.getElementById('panel-fav-btn');
+const favBtn = document.getElementById('panel-fav-btn');
 
-  if (favBtn) {
-    favBtn.addEventListener('click', () => {
-      const name = document.getElementById('panel-name').textContent;
-      const added = toggleFavorite(name);
+if (favBtn) {
+  favBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
 
-      favBtn.textContent = added ? '★ En favoritos' : '☆ Favorito';
-      favBtn.classList.toggle('active', added);
+    if (!activeRoute) {
+      showNavError('Primero selecciona un lugar.');
+      return;
+    }
 
-      const favPanel = document.getElementById('fav-panel');
+    const added = toggleFavorite(activeRoute.name);
 
-      if (favPanel?.classList.contains('open')) {
-        refreshFavList(null);
-      }
-    });
-  }
+    favBtn.textContent = added ? '★ En favoritos' : '☆ Favorito';
+    favBtn.classList.toggle('active', added);
+
+    const favPanel = document.getElementById('fav-panel');
+
+    if (favPanel?.classList.contains('open')) {
+      refreshFavList(null);
+    }
+  });
+}
 
   const btnEdit   = document.getElementById('btn-poi-edit');
   const btnDelete = document.getElementById('btn-poi-delete');
