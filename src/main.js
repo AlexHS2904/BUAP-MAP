@@ -362,12 +362,15 @@ function renderFavoritesPanel() {
     return;
   }
 
+  const session = getSession();
+  const userName = session?.name || 'Usuario';
+
   const panel = document.createElement('div');
   panel.id = 'fav-panel';
   panel.innerHTML = `
     <div class="panel-handle"></div>
     <button class="panel-close" id="fav-panel-close">×</button>
-    <h2 class="fav-title">★ Mis Favoritos</h2>
+    <h2 class="fav-title">★ Favoritos de ${userName}</h2>
     <div id="fav-list"></div>
   `;
 
