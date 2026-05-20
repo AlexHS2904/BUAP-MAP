@@ -242,7 +242,7 @@ function renderLoginScreen() {
   overlay.id = 'login-overlay';
   overlay.innerHTML = `
     <div class="login-card">
-      <div class="login-logo"><img src="public/img/logo.png"></div>
+      <div class="login-logo"><img src="/img/logo.png" alt="Logo BUAP"></div>
       <h1 class="login-title">BUAP Campus</h1>
       <p class="login-sub">Inicia sesión para continuar</p>
 
