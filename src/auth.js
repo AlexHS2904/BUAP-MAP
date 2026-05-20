@@ -1,5 +1,4 @@
 // ── AUTH ─────────────────────────────────────────────────
-// Usuarios simulados (en producción esto iría a un backend)
 const USERS = [
   { username: 'admin',   password: 'admin123', role: 'admin',  name: 'Administrador' },
   { username: 'alumno',  password: 'buap2024', role: 'user',   name: 'Alumno BUAP'   },

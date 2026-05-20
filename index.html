@@ -163,10 +163,9 @@
 
     .mapboxgl-ctrl-bottom-left, .mapboxgl-ctrl-bottom-right { display: none !important; }
 
-    .login-logo img {
-      width: 160px;
-      height: auto;
-    }
+    /* Forzar que los marcadores custom nunca roten con el mapa */
+    .mapboxgl-marker { transform-origin: center bottom !important; }
+    .buap-marker-wrapper { transform: none !important; }
   </style>
 </head>
 <body>
