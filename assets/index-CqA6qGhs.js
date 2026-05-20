@@ -7,7 +7,7 @@
     box-shadow:0 0 0 5px rgba(26,115,232,0.2);
   `,L=new mapboxgl.Marker({element:t,anchor:"center"}).setLngLat(e).addTo(s)}function q(){const e=document.getElementById("login-overlay");e&&e.remove();const t=document.createElement("div");t.id="login-overlay",t.innerHTML=`
     <div class="login-card">
-      <div class="login-logo">🏛️</div>
+      <div class="login-logo"><img src="public/img/logo.png"></div>
       <h1 class="login-title">BUAP Campus</h1>
       <p class="login-sub">Inicia sesión para continuar</p>
 
